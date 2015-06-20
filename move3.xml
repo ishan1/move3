@@ -36,6 +36,9 @@
                                         <field name="OBJECT">LEFTFRONT</field>
                                       </block>
                                     </value>
+                                    <next>
+                                      <block type="movement_stop" id="44"></block>
+                                    </next>
                                   </block>
                                 </next>
                               </block>
@@ -53,5 +56,4 @@
       </block>
     </next>
   </block>
-  <block type="movement_stop" id="44" x="204" y="377"></block>
 </xml>
