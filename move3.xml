@@ -32,13 +32,10 @@
                                 <next>
                                   <block type="robot_delay" id="79" inline="true">
                                     <value name="DELAY">
-                                      <block type="math_number" id="80">
-                                        <field name="NUM">5000</field>
+                                      <block type="sensor_object" id="96">
+                                        <field name="OBJECT">LEFTFRONT</field>
                                       </block>
                                     </value>
-                                    <next>
-                                      <block type="movement_stop" id="44"></block>
-                                    </next>
                                   </block>
                                 </next>
                               </block>
@@ -56,4 +53,5 @@
       </block>
     </next>
   </block>
+  <block type="movement_stop" id="44" x="204" y="377"></block>
 </xml>
